@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    
+    <style>
+      .title {
+        z-index: 2;
+      }
+      .image {
+        position: fixed;
+        width: 100%;
+        opacity: 0.6;
+        z-index: 0;
+      }
+      .surv{
+        background-color: beige;
+        padding: 50px;
+        border-radius: 5%;
+        opacity: 1;
+        z-index: 1;
+      }
+      
+      .names > {
+        align-content: left;
+      }
+        body {
+            
+            opacity: 1;
+            text-align: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input[type=text], select {
+            width: 100%;
+            padding-left: 0px;
+            margin: 8px 0;
+            
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            align-items: right;
+            
+            }
+        input[type=number], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+           }
+          .group > label {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            align-items: left;
+           }
+           .title > h1 {
+            text-shadow: 50px;
+           }
+        
+       
+    </style>
+    <img src="https://cdn.pixabay.com/photo/2017/07/31/14/45/code-2558220_960_720.jpg" class="image">
+    <div class="title">
+      <h1>Microverse Trials</h1>
+      <h2>Survey for Microverse applicants</h2>
+    </div>
+    <div class="surv">
+      <form action="survey">
+        <div class="names"> 
+        <label for="name">Name</label>
+        <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+       </div>
+
+       <div class="age">
+        <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+        <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+       </div>
+      <div class="group">
+        <p>What do you like of MicroVerse<span class="clue">(Check all that apply)</span></p>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Levelup Experience
+        </label>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Teamwork
+        </label>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Javascript Learning
+        </label>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Css/Html Learning
+        </label>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Challanges
+        </label>
+        <label>
+          <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">
+          Trials
+        </label>
+      </div>
+
+
+      </form>
+    </div>
+  
+
+
+
+
+    
+  </body>
+</html>
